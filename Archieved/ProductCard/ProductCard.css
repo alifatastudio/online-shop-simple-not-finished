@@ -1,0 +1,24 @@
+.product-card-container {
+    margin-top: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    margin: 5px;
+    width: calc(25% - 10px) ;
+    cursor: pointer;
+}
+
+.product-card .media {
+    height: 300px;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    transition: all 0.3s ease 0s;
+}
+
+.product-card .btn-buy{
+    width: 50%;
+}
